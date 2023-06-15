@@ -1,0 +1,40 @@
+{
+  "name": "hyah-ui-vue",
+  "private": false,
+  "version": "0.1.0",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nikkistorme/hyah-ui.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/hyah-ui-vue.cjs.js",
+  "module": "./dist/hyah-ui-vue.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/hyah-ui-vue.es.js",
+      "require": "./dist/hyah-ui-vue.umd.js"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.6",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9",
+    "vite-plugin-css-injected-by-js": "^3.1.1",
+    "vite-plugin-dts": "^2.3.0",
+    "vue-tsc": "^1.4.2"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.47"
+  }
+}
