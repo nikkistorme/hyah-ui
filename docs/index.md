@@ -6,7 +6,12 @@ hero:
   name: "Hyah UI"
   text: "Empowering Accessible User Interfaces"
   tagline: "A comprehensive component library and resource for accessible UI development"
+  image:
+    src: /android-chrome-512x512.png
   actions:
+    - theme: brand
+      text: Get Started
+      link: /getting-started/installation
     - theme: brand
       text: Components
       link: /components/button
