@@ -27,27 +27,14 @@ export default defineConfig({
         text: 'Accessibility Guides',
         items: [
           { text: 'Text Content', link: '/accessibility/text' },
-          // { text: 'Keyboard Navigation', link: '/accessibility/keyboard-navigation' },
-          // { text: 'Focus Management', link: '/accessibility/focus-management' },
-          // { text: 'Screen Readers', link: '/accessibility/screen-readers' },
-          // { text: 'Color Contrast', link: '/accessibility/color-contrast' },
-          // { text: 'Semantic HTML', link: '/accessibility/semantic-html' },
-          // { text: 'ARIA', link: '/accessibility/aria' },
-          // { text: 'Testing', link: '/accessibility/testing' },
         ]
       },
       {
         text: 'Components',
         items: [
-          // { text: 'Accordion', link: '/components/accordion' },
           { text: 'Button', link: '/components/button' },
-          // { text: 'Checkbox', link: '/components/checkbox' },
-          // { text: 'Dialog', link: '/components/dialog' },
           { text: 'Progress Bar', link: '/components/progress-bar' },
           { text: 'Skip Nav Link', link: '/components/skip-nav-link' },
-          // { text: 'Tabs', link: '/components/tabs' },
-          // { text: 'Tables', link: '/components/tables' },
-          // { text: 'Tooltip', link: '/components/tooltip' },
         ]
       },
       {
@@ -67,6 +54,11 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/nikkistorme/hyah-ui' }
     ]
   },
+  head: [
+    ['link', { rel: 'icon', href: '/favicon-16x16.png' }],
+    ['link', { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' }],
+    ['link', { rel: 'manifest', href: '/site.webmanifest' }],
+  ],
   vite: {
     resolve: {
       alias: {
