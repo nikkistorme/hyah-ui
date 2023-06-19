@@ -1,11 +1,14 @@
 :root {
   --hya-c-primary: #676bdc;
+  --hyah-c-font: #FFF;
 
   /* Components - HyaButton */
   --hya-btn-min-ht: 44px;
   --hya-btn-min-wd: 44px;
   --hya-btn-wd: fit-content;
   --hya-btn-c-bg: var(--hya-c-primary);
+  --hyah-btn-pd: 0 16px;
+  --hyah-btn-c-font: var(--hyah-c-font);
 }
 
 .hya-sr-only {

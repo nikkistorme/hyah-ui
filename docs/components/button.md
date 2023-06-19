@@ -1,5 +1,5 @@
 <script setup>
-  import { HButton } from 'hyah-ui-vue';
+  import { HButton } from 'hyah-vue';
 </script>
 
 # Button
@@ -69,6 +69,8 @@ To customize the button's appearance, you may override the styles on the `hyah-b
   --hya-btn-min-wd: 44px;
   --hya-btn-wd: fit-content;
   --hya-btn-c-bg: var(--hya-c-primary);
+  --hyah-btn-pd: 0 16px;
+  --hyah-btn-c-font: var(--hyah-c-font);
 }
 ```
 

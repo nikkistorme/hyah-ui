@@ -17,7 +17,7 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, 'src/index.ts'),
       formats: ['es', 'cjs'],
-      fileName: (format) => `hyah-ui-vue.${format}.js`
+      fileName: (format) => `hyah-vue.${format}.js`
     },
     cssCodeSplit: true,
     rollupOptions: {

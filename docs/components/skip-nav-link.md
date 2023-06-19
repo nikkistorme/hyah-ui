@@ -1,5 +1,5 @@
 <script setup>
-  import { HSkipNavLink } from 'hyah-ui-vue'
+  import { HSkipNavLink } from 'hyah-vue'
 </script>
 
 # Skip Navigation Link

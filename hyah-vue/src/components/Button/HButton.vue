@@ -57,9 +57,10 @@ defineProps({
   min-height: var(--hya-btn-min-ht);
   min-width: var(--hya-btn-min-wd);
   width: var(--hya-btn-wd);
-  padding: 0 16px;
+  padding: var(--hyah-btn-pd);
   border: none;
   border-radius: 4px;
+  color: var(--hyah-btn-c-font);
   background-color: var(--hya-btn-c-bg);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   transition: background-color 0.2s ease-in-out;

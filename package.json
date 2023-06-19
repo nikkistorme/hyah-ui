@@ -5,10 +5,8 @@
     "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
+    "hyah-vue": "^0.1.0",
     "vitepress": "^1.0.0-beta.1",
     "vue": "^3.3.4"
-  },
-  "dependencies": {
-    "hyah-ui-vue": "file:hyah-ui-vue"
   }
 }

@@ -5,11 +5,11 @@ Hyah UI is available as an npm package. You can install it via the npm package m
 ## Vue 3
 
 ```bash
-npm install -D hyah-ui-vue
+npm install -D hyah-vue
 ```
 
 ```bash
-yarn add -D hyah-ui-vue
+yarn add -D hyah-vue
 ```
 
 <!-- ## React

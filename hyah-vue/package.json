@@ -1,5 +1,5 @@
 {
-  "name": "hyah-ui-vue",
+  "name": "hyah-vue",
   "private": false,
   "version": "0.1.0",
   "type": "module",
@@ -10,12 +10,12 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/hyah-ui-vue.cjs.js",
-  "module": "./dist/hyah-ui-vue.es.js",
+  "main": "./dist/hyah-vue.cjs.js",
+  "module": "./dist/hyah-vue.es.js",
   "exports": {
     ".": {
-      "import": "./dist/hyah-ui-vue.es.js",
-      "require": "./dist/hyah-ui-vue.umd.js"
+      "import": "./dist/hyah-vue.es.js",
+      "require": "./dist/hyah-vue.umd.js"
     },
     "./dist/style.css": "./dist/style.css"
   },

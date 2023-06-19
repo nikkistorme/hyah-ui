@@ -1,3 +1,7 @@
+<script setup>
+  import { HButton } from 'hyah-vue';
+</script>
+
 # Text Content
 
 ## Footnotes
