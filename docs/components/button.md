@@ -70,11 +70,11 @@ To customize the button's appearance, you may override the styles on the `hyah-b
   --hya-btn-wd: fit-content;
   --hya-btn-c-bg: var(--hya-c-primary);
   --hyah-btn-pd: 0 16px;
-  --hyah-btn-c-font: var(--hyah-c-font);
+  --hyah-btn-c-font: var(--hya-c-font);
 }
 ```
 
-## Parameters
+## Props
 
 Any additional attributes provided will be applied to the `button` (or `a`) element directly, such as `aria-label`, `aria-labelledby`, `target`, etc.
 

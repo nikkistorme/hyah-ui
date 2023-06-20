@@ -38,7 +38,7 @@ The Skip Navigation Link is hidden by default and only becomes visible when it r
 
 To customize the Skip Navigation Link's appearance, use the `hyah-skip-nav` class.
 
-## Parameters
+## Props
 
 | Name | Description                           | Type     | Default         |
 | ---- | ------------------------------------- | -------- | --------------- |
