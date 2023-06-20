@@ -1,14 +1,23 @@
 :root {
   --hya-c-primary: #676bdc;
-  --hyah-c-font: #FFF;
+  --hya-c-font: #FFF;
 
-  /* Components - HyaButton */
+  --hyah-border-radius: 4px;
+
+  /* Components - Button */
   --hya-btn-min-ht: 44px;
   --hya-btn-min-wd: 44px;
   --hya-btn-wd: fit-content;
   --hya-btn-c-bg: var(--hya-c-primary);
   --hyah-btn-pd: 0 16px;
-  --hyah-btn-c-font: var(--hyah-c-font);
+  --hyah-btn-c-font: var(--hya-c-font);
+
+  /* Components - Progress */
+  --hya-progress-c-bg: #252529;
+  --hya-progress-c-fill: var(--hya-c-primary);
+  --hya-progress-c-font: var(--hya-c-font);
+  --hya-progress-c-border: var(--hya-c-primary);
+  --hya-progress-border-radius: 20px;
 }
 
 .hya-sr-only {
