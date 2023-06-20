@@ -9,7 +9,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Getting Started', link: '/getting-started/what-is-hyah-ui' },
-      { text: 'Accessibility Guides', link: '/accessibility/keyboard-navigation' },
+      { text: 'Accessibility Guides', link: '/accessibility/text' },
       { text: 'Components', link: '/components/button' },
     ],
     search: {
