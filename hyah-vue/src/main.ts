@@ -1,5 +1,6 @@
 import { createApp } from 'vue'
 import './style.css'
+import './testing.css'
 import App from './App.vue'
 
 // import * as components from './components';
