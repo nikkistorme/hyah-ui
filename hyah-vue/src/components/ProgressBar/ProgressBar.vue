@@ -51,11 +51,12 @@ defineProps({
 
 <style scoped>
 .hya-progress {
-  height: 30px;
-  width: 100%;
-  min-width: 100px;
+  min-height: var(--hya-progress-min-ht);
+  height: var(--hya-progress-ht);
+  width: var(--hya-progress-wd);
+  min-width: var(--hya-progress-min-wd);
   background-color: var(--hya-progress-c-bg);
-  border: 2px solid var(--hya-progress-c-border);
+  border: var(--hya-progress-border-wd) solid var(--hya-progress-c-border);
   border-radius: var(--hya-progress-border-radius);
   overflow: hidden;
 }

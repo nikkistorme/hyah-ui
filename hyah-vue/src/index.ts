@@ -17,3 +17,4 @@ export default hyahComponents;
 
 export { HButton } from './components/Button';
 export { HSkipNavLink } from './components/SkipNavLink';
+export { ProgressBar } from './components/ProgressBar';

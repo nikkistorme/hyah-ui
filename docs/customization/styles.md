@@ -7,6 +7,8 @@ Override any the following CSS variables to effect the style of the components a
 ```css
 :root {
   --hya-c-primary: #676bdc;
-  --hyah-c-font: #fff;
+  --hya-c-font: #fff;
+
+  --hyah-border-radius: 4px;
 }
 ```

@@ -13,10 +13,15 @@
   --hyah-btn-c-font: var(--hya-c-font);
 
   /* Components - Progress */
+  --hya-progress-ht: 30px;
+  --hya-progress-min-ht: 30px;
+  --hya-progress-wd: 100%;
+  --hya-progress-min-wd: 100px;
   --hya-progress-c-bg: #252529;
   --hya-progress-c-fill: var(--hya-c-primary);
   --hya-progress-c-font: var(--hya-c-font);
   --hya-progress-c-border: var(--hya-c-primary);
+  --hya-progress-border-wd: 2px;
   --hya-progress-border-radius: 20px;
 }
 
