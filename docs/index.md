@@ -12,9 +12,6 @@ hero:
     - theme: brand
       text: Get Started
       link: /getting-started/installation
-    - theme: brand
-      text: Components
-      link: /components/button
 features:
   - title: Accessible by Design
     details: Meticulously crafted with accessibility in mind. From color contrast ratios to keyboard navigation, we've implemented best practices to ensure that your interfaces are usable by everyone.
