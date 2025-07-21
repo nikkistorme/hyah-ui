@@ -33,6 +33,7 @@ export default defineConfig({
         text: 'Components',
         items: [
           { text: 'Button', link: '/components/button' },
+          { text: 'Carousel', link: '/components/carousel' },
           { text: 'Progress Bar', link: '/components/progress-bar' },
           { text: 'Skip Nav Link', link: '/components/skip-nav-link' },
         ]

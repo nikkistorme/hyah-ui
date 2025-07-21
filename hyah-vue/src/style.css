@@ -23,6 +23,9 @@
   --hya-progress-c-border: var(--hya-c-primary);
   --hya-progress-border-wd: 2px;
   --hya-progress-border-radius: 20px;
+
+  /* Components - Carousel */
+  --hya-carousel-nav-ht: 50px;
 }
 
 .hya-sr-only {
